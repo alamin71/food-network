@@ -9,15 +9,44 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 10px;
 }
 .half-width{
-    width: 40%;
+    width: 50%;
+    padding-left: 5%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }.button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
-    border-radius: 8px;
+    border-radius: 15px;
     padding: 10px 40px;
+    font-weight: 400;
 }
+section2{
+display: flex;
+}
+.section-2_Bg{
+    background-image: url(images/shapes/7.png);
+   
+}
+.half-width2 h1{
+    
+    margin-top: 170px;
+}
+.half-width2{
+    width: 50%;
+}
+.half-width2 img{
+    width: 50%;
+    margin-top: 20px;
+    padding-left: 150px;
+}
+.half-width2 p{
+    text-align: justify;
+}
+
+
+
+
